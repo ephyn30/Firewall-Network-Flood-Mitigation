@@ -1,0 +1,8 @@
+Chain INPUT (policy DROP 9388 packets, 386K bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+30676  180M ufw-before-logging-input  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+30676  180M ufw-before-input  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+ 9392  386K ufw-after-input  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+ 9388  386K ufw-after-logging-input  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+ 9388  386K ufw-reject-input  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+ 9388  386K ufw-track-input  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
