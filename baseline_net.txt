@@ -1,6 +1,0 @@
-2: enp1s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP mode DEFAULT group default qlen 1000
-    link/ether 56:00:05:e4:be:a8 brd ff:ff:ff:ff:ff:ff
-    RX:  bytes packets errors dropped  missed   mcast           
-     180362515   30140      0       0       0       0 
-    TX:  bytes packets errors dropped carrier collsns           
-       1012139    7757      0       0       0       0 
