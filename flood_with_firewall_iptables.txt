@@ -1,9 +1,0 @@
-Chain INPUT (policy DROP 9571 packets, 394K bytes)
- pkts bytes target     prot opt in     out     source               destination         
-31508  180M ufw-before-logging-input  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
-31508  180M ufw-before-input  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
- 9612  396K ufw-after-input  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
- 9608  396K ufw-after-logging-input  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
- 9608  396K ufw-reject-input  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
- 9608  396K ufw-track-input  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
-   37  1480 REJECT     all  --  *      *       155.138.204.77       0.0.0.0/0            reject-with icmp-port-unreachable
